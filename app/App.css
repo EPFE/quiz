@@ -1,0 +1,21 @@
+.app aside {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2.1rem;
+  background-color: #3b4047
+}
+
+.app aside h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.app header {
+  position: absolute;
+  top: 0;
+  left: 2.1rem;
+  height: .66rem;
+  width: calc(100% - 2.1rem);
+  border-bottom: 1px solid #ddd;
+}

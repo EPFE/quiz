@@ -1,0 +1,22 @@
+{
+  "name": "quiz",
+  "version": "0.1.0",
+  "description": "文档协作工具",
+  "main": "index.js",
+  "repository": "https://github.com/EPFE/quiz.git",
+  "author": "yangshaojun <shaojun.y@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.6.2"
+  }
+}
